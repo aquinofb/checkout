@@ -3,10 +3,10 @@
 ## Usage
 
 ```shell
-# install the dependencies
+# install dependencies
 bin/setup
 
-# run the console
+# run console
 bin/console
 ```
 
@@ -22,7 +22,7 @@ basket = Checkout::Basket.new([price_drops, percent_off])
 basket.scan(product_1)
 basket.scan(product_2)
 basket.scan(product_3)
-basket.total
+basket.total # £66.78
 ```
 for more examples please see: `spec/checkout_spec.rb`
 
