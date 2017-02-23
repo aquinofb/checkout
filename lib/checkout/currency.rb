@@ -4,4 +4,4 @@ module Checkout
       "#{unit}%.02f" % (number / 100.0)
     end
   end
-end
+end 

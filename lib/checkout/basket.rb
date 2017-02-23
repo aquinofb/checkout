@@ -27,4 +27,4 @@ module Checkout
 				end
 			end
 	end
-end
+end 

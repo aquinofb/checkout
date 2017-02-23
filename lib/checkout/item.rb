@@ -25,4 +25,4 @@ module Checkout
 		private
 			attr_reader :product
 	end
-end
+end 

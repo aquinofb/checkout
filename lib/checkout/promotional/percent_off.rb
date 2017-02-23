@@ -17,4 +17,4 @@ module Checkout
 				attr_reader :price_limit, :percentage
 		end
 	end
-end
+end 

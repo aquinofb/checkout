@@ -17,4 +17,4 @@ module Checkout
 				attr_reader :product_code, :quantity, :new_price
 		end
 	end
-end
+end 
