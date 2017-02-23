@@ -15,7 +15,10 @@ product_1 = Checkout::Product.new(1, 'Lavender heart', 925)
 product_2 = Checkout::Product.new(2, 'Personalised cufflinks', 4500)
 product_3 = Checkout::Product.new(3, 'Kids T-shirt', 1995)
 
+# this class should receive the price limit and the percentage of the discount
 percent_off = Checkout::Promotional::PercentOff.new(6000, 10)
+
+# this class should receive the product code, how many products to trigger the promo and the new price
 price_drops = Checkout::Promotional::PriceDrops.new(product_1.code, 2, 850)
 
 basket = Checkout::Basket.new([price_drops, percent_off])
