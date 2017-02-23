@@ -30,7 +30,7 @@ basket.total # £66.78
 for more examples please see: `spec/checkout_spec.rb`
 
 ### Comments
-For this test, I tried to build thinking in a real world, like a new module to a system, not a piece of code. So, in my solution we can create N different promotions without change code. The solution for promotions is not tied to some number(i.e. 2, 10%, 60...) or some product(i.e. Lavender...), you can create custom promotions for what you want, as you want.
+For this test, I tried to build thinking in a real world, like a new module to a system, not a piece of code. So, in this solution we can create N different promotions without change code. The solution for promotions is not tied to some number(i.e. 2, 10%, 60...) or some product(i.e. Lavender...), you can create custom promotions for what you want, as you want.
 
 ## License
 
